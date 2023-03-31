@@ -1,0 +1,5 @@
+LIBRARY SampleCustomProtocolProvider.dll
+
+EXPORTS
+    DllCanUnloadNow                                 PRIVATE
+    DllGetClassObject                               PRIVATE

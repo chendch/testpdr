@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Terminal Server\WinStations\B-Tcp]
+"LoadableProtocol_Object"="{372E5ABE-0BA4-49CE-AB33-2C7931983FFE}"
+
+[HKEY_CLASSES_ROOT\CLSID\{372E5ABE-0BA4-49CE-AB33-2C7931983FFE}]
+@="SampleCustomProtocolProvider"
+
+[HKEY_CLASSES_ROOT\CLSID\{372E5ABE-0BA4-49CE-AB33-2C7931983FFE}\InprocServer32]
+@="SampleCustomProtocolProvider.dll"
+"ThreadingModel"="Free"
+
